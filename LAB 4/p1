@@ -16,7 +16,8 @@ public class Solution {
           }catch(InputMismatchException ie) {       
             System.out.println(ie.getClass().getName());
           }catch(ArithmeticException ae){
-            System.out.println(ae.getClass().getName()+"-"+ ae.getMessage());
+            System.out.println(ae.getClass().getName() + ": " + ae.getMessage());
           }
     }
 }
+
