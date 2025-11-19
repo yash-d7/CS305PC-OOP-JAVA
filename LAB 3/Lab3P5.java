@@ -1,4 +1,4 @@
-class Lab3P51{
+class Lab3P5{
 	String name;
 	public void demonstrate(){
 		System.out.println("I am a method in Lab3P51");	
