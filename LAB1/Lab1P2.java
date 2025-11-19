@@ -1,79 +1,70 @@
-class Lab1P2{
-	public static void main(String..args){
-		byte b = 127;	
-		Byte bb = b; 
-		
-		
+class Lab1P1{
+	public static void main(String...args){
+		byte b = 127;
+		Byte bb = b;
 		
 		System.out.println(Byte.MAX_VALUE);
 		System.out.println(bb.MIN_VALUE);
-		System.out.println(bb.SIZE);
-		System.out.println(bb.TYPE);
-		System.out.println(bb.BYTES);
-		System.out.println("-------SHORT-------");
+		System.out.println(Byte.SIZE);
+		System.out.println(Byte.TYPE);
+		System.out.println(Byte.BYTES);
+		System.out.println("-----Byte-----");
 		
-		short s = 18;
-		short ss = s;  //AutoBoxing
+		short s = 127;
+		Short ss = s;
 		
 		System.out.println(Short.MAX_VALUE);
 		System.out.println(ss.MIN_VALUE);
-		System.out.println(ss.SIZE);
-		System.out.println(ss.TYPE);
-		System.out.println(ss.BYTES);
-		System.out.println("-------INTEGER-------");
+		System.out.println(Short.SIZE);
+		System.out.println(Short.TYPE);
+		System.out.println(Short.BYTES);
+		System.out.println("-----Short-----");
 		
-		int x = 11;
-		Integer xx = x;
+		int i = 127;
+		Integer ii = i;
 		
 		System.out.println(Integer.MAX_VALUE);
-		System.out.println(xx.MIN_VALUE);
-		System.out.println(xx.SIZE);
-		System.out.println(xx.TYPE);
-		System.out.println(xx.BYTES);
-		System.out.println("-------LONG-------");
+		System.out.println(ii.MIN_VALUE);
+		System.out.println(Integer.SIZE);
+		System.out.println(Integer.TYPE);
+		System.out.println(Integer.BYTES);
+		System.out.println("-----Integer-----");
 		
-		long y = 28;
-		Long yy = y;
+		long l = 127;
+		Long ll = l;
 		
 		System.out.println(Long.MAX_VALUE);
-		System.out.println(yy.MIN_VALUE);
-		System.out.println(yy.SIZE);
-		System.out.println(yy.TYPE);
-		System.out.println(yy.BYTES);
-		System.out.println("-------FLOAT-------");
+		System.out.println(ll.MIN_VALUE);
+		System.out.println(Long.SIZE);
+		System.out.println(Long.TYPE);
+		System.out.println(Long.BYTES);
+		System.out.println("-----Long-----");
 		
-		float p = 30;
-		Float pp = p;
+		float f = 127;
+		Float ff = f;
 		
 		System.out.println(Float.MAX_VALUE);
-		System.out.println(pp.MIN_VALUE);
-		System.out.println(pp.SIZE);
-		System.out.println(pp.TYPE);
-		System.out.println(pp.BYTES);
-		System.out.println("-------DOUBLE-------");
+		System.out.println(ff.MIN_VALUE);
+		System.out.println(Float.SIZE);
+		System.out.println(Float.TYPE);
+		System.out.println(Float.BYTES);
+		System.out.println("-----Float-----");
 		
-		double d = 7;
+		double d = 127;
 		Double dd = d;
 		
 		System.out.println(Double.MAX_VALUE);
 		System.out.println(dd.MIN_VALUE);
-		System.out.println(dd.SIZE);
-		System.out.println(dd.TYPE);
-		System.out.println(dd.BYTES);
-		System.out.println("-------BOOLEAN-------");
+		System.out.println(Double.SIZE);
+		System.out.println(Double.TYPE);
+		System.out.println(Double.BYTES);
+		System.out.println("-----Double-----");
 		
-		boolean b = 8;
-		Boolean bb = b;
+		boolean o = 12;
+		Boolean oo = o;
 		
-		System.out.println(Boolean.MAX_VALUE);
-		System.out.println(dd.MIN_VALUE);
-		System.out.println(dd.SIZE);
-		System.out.println(dd.TYPE);
-		System.out.println(dd.BYTES);
-		System.out.println("--------------------");	
-		
-		
-		
+		System.out.println(Boolean.SIZE);
+		System.out.println(Boolean.TYPE);
+		System.out.println("-----Boolean-----");
 	}
-		
-}	
+}
