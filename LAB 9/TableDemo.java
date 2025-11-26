@@ -16,8 +16,10 @@ class TableDemo extends JFrame{
 					                             		{"YELL", "CSIT", "123496"},
 																			};
 					JTable jt = new JTable(data, heading);
+					JScrollPane jsp = new JScrollPane(jt);
 					
-					add(jt);
+					
+					add(jsp);
 					
 					setVisible(true);
 					setSize(500,500);
