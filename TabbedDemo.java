@@ -7,7 +7,7 @@ class TabbedDemo extends JFrame{
 			TabbedDemo(){
 			super("Tabbed Pane Demo");
 			JTabbedPane jtp = new JTabbedPane(1);
-		  jtp.addTab("Tab1",new Label("Tabbed Pane 1"));
+		    jtp.addTab("Tab1",new Label("Tabbed Pane 1"));
 			jtp.addTab("Tab2",new Label("Tabbed Pane 2"));
 			jtp.addTab("Tab3",new Label("Tabbed Pane 3"));
 			
